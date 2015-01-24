@@ -44,5 +44,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'foreman', group: :development
+
 gem 'rails_12factor', group: :production
 gem 'puma'
